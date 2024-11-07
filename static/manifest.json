@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Some extension",
+  "description": "The craziest extension on the internet",
+  "version": "1.0.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_title": "Crazy Popup",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["history"]
+}
